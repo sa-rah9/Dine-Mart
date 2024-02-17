@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
           <p className="pt-3 text-lg md:text-2xl md:w-[75%] text-white text-left ">
             Anyone can beat you but no one can beat your outfit as long as you
-            wear Dine outfits.
+            wear Dine .
           </p>
           {/* <IoCartOutline className="w-12 h-8" /> */}
           <button className="mt-5 bg-[#BAC4C8] border-4 border-solid flex items-center justify-center px-4 py-3 text-[#22324D] border-[#22324D] font-bold">
