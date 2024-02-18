@@ -7,7 +7,7 @@ export default function Hero() {
     <div className='w-full h-screen bg-stone-400'>
     <div className='flex justify-evenly items-center w-full pt-20 px-20'>  
     <div>
-      <div><button className="mb-5 bg-[#22324D] border-2 border-solid  flex items-center justify-center px-4 py-2 text-white">
+      <button className="mb-5 bg-[#22324D] border-2 border-solid  flex items-center justify-center px-4 py-2 text-white">
             Sale 70%
           </button>
           <h1 className="text-[38px] md:text-[50px] text-white font-bold">
@@ -22,9 +22,9 @@ export default function Hero() {
           <button className="mt-5 bg-[#BAC4C8] border-4 border-solid flex items-center justify-center px-4 py-3 text-[#22324D] border-[#22324D] font-bold">
             {/* <IoCartOutline className="w-12 h-8" />  */}
             Start Shopping
-          </button></div>
+          </button>
     </div>
-
+                {/* here we give md:flex hidden to hide the picture and show on responsive mode  */}
     <div className='md:flex hidden'><Image src={"/fashion4.jpg"} alt='image' width={300} height={300} className='rounded-full object-cover w-full h-full'/> </div>
 
     </div>
