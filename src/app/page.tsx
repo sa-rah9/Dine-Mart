@@ -1,4 +1,5 @@
 
+import About from '@/components/About'
 import Hero from '@/components/Hero'
 import Products from '@/components/Products'
 import React from 'react'
@@ -10,6 +11,12 @@ export default function page() {
     <Hero/>  
     {/* relative is used for possitioning not furthure more */}
     <div className='relative z-30'><Products/></div>
+    
+    <div className='relative z-30'>
+    <About/>
     </div>
+    
+    </div>
+    
   )
 }
