@@ -1,6 +1,8 @@
 
 import About from '@/components/About'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
+import Newsletter from '@/components/Newsletter'
 import Products from '@/components/Products'
 import React from 'react'
 
@@ -15,7 +17,12 @@ export default function page() {
     <div className='relative z-30'>
     <About/>
     </div>
-    
+    <div className='relative z-30'>
+      <Newsletter/>
+    </div>
+    <div className='relative z-30'>
+      <Footer/>
+    </div>
     </div>
     
   )
